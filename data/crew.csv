@@ -1,0 +1,121 @@
+crew_id,employee_id,first_name,last_name,rank,fleet,base,timezone,chronotype,sleep_need,fatigue_sensitivity,baseline_hrv
+1,EMP10001,Mark,Sato,Captain,A350,Delhi (DEL),UTC+5.5,Neutral,7.0,0.8,61
+2,EMP10002,Melissa,Al-Farsi,Captain,A321,Frankfurt (FRA),UTC+1,Neutral,8.4,1.01,73
+3,EMP10003,Barbara,Allen,Captain,A320,Hong Kong (HKG),UTC+8,Morning,8.4,0.99,57
+4,EMP10004,Carol,Clark,First Officer,A350,Delhi (DEL),UTC+5.5,Evening,7.8,1.08,64
+5,EMP10005,Barbara,Lopez,First Officer,A321,Los Angeles (LAX),UTC-8,Evening,7.7,0.88,67
+6,EMP10006,Wei,Anderson,Captain,B777,Frankfurt (FRA),UTC+1,Morning,8.3,1.11,66
+7,EMP10007,Priya,Rossi,First Officer,A321,Singapore (SIN),UTC+8,Morning,8.4,1.03,68
+8,EMP10008,Hiroshi,Smith,First Officer,B777,Sydney (SYD),UTC+10,Neutral,7.8,0.93,52
+9,EMP10009,John,Hernandez,Captain,A350,Sydney (SYD),UTC+10,Neutral,7.2,0.95,61
+10,EMP10010,Jessica,Green,First Officer,B777,Singapore (SIN),UTC+8,Morning,7.8,1.13,57
+11,EMP10011,Marco,Muller,Captain,A321,New York (JFK),UTC-5,Morning,8.1,1.1,54
+12,EMP10012,Sarah,Al-Farsi,First Officer,A350,Frankfurt (FRA),UTC+1,Evening,7.7,0.95,55
+13,EMP10013,Priya,Chen,First Officer,B777,London (LHR),UTC+0,Neutral,8.2,1.07,67
+14,EMP10014,Kevin,Lewis,Captain,B777,Sydney (SYD),UTC+10,Neutral,7.3,0.8,48
+15,EMP10015,Benjamin,Bernard,First Officer,A350,Dubai (DXB),UTC+4,Evening,7.8,1.11,48
+16,EMP10016,Stephanie,Lee,Captain,A350,Tokyo (NRT),UTC+9,Neutral,7.1,1.07,62
+17,EMP10017,Barbara,Wilson,First Officer,A320,Los Angeles (LAX),UTC-8,Neutral,8.1,1.0,79
+18,EMP10018,Mark,Carter,Captain,B777,Frankfurt (FRA),UTC+1,Morning,8.7,1.13,64
+19,EMP10019,Donna,Davis,First Officer,B777,London (LHR),UTC+0,Evening,7.8,0.79,67
+20,EMP10020,Eric,Johnson,First Officer,A350,Frankfurt (FRA),UTC+1,Evening,8.4,1.3,94
+21,EMP10021,Jerry,Larsen,First Officer,A350,Frankfurt (FRA),UTC+1,Morning,7.6,0.94,52
+22,EMP10022,Nicholas,Johnson,First Officer,A320,Delhi (DEL),UTC+5.5,Morning,7.5,0.75,54
+23,EMP10023,Steven,Lee,First Officer,B777,Los Angeles (LAX),UTC-8,Evening,8.5,0.93,45
+24,EMP10024,Jeffrey,Williams,First Officer,A350,Singapore (SIN),UTC+8,Evening,8.4,0.86,71
+25,EMP10025,Sandra,Perez,First Officer,A321,Dubai (DXB),UTC+4,Evening,8.2,0.93,45
+26,EMP10026,Ivan,Haddad,First Officer,A320,Los Angeles (LAX),UTC-8,Evening,7.9,1.04,75
+27,EMP10027,David,Sato,First Officer,A350,Singapore (SIN),UTC+8,Morning,8.8,1.03,45
+28,EMP10028,Karim,Moore,Captain,A320,Delhi (DEL),UTC+5.5,Morning,7.8,1.22,46
+29,EMP10029,Nicholas,Thompson,First Officer,B737,Tokyo (NRT),UTC+9,Neutral,7.9,1.05,76
+30,EMP10030,Nicholas,Martinez,First Officer,A321,London (LHR),UTC+0,Neutral,7.6,0.82,49
+31,EMP10031,Omar,Hassan,First Officer,A320,Los Angeles (LAX),UTC-8,Morning,7.8,0.95,72
+32,EMP10032,Sarah,Roberts,First Officer,A350,Dubai (DXB),UTC+4,Evening,7.9,1.04,62
+33,EMP10033,Fatima,Davis,Captain,B777,Frankfurt (FRA),UTC+1,Evening,8.9,0.87,56
+34,EMP10034,Dennis,Wright,First Officer,A321,New York (JFK),UTC-5,Morning,7.6,0.9,34
+35,EMP10035,Justin,Flores,First Officer,A321,Delhi (DEL),UTC+5.5,Neutral,7.7,0.87,58
+36,EMP10036,Elena,Silva,First Officer,A350,Dubai (DXB),UTC+4,Morning,7.5,1.28,94
+37,EMP10037,Ines,Jones,First Officer,B737,London (LHR),UTC+0,Evening,7.5,0.96,69
+38,EMP10038,Margaret,Gonzalez,Captain,A350,London (LHR),UTC+0,Morning,7.9,0.96,62
+39,EMP10039,Arjun,Brown,First Officer,A350,Sydney (SYD),UTC+10,Neutral,8.2,1.01,60
+40,EMP10040,Wei,Fischer,Captain,A350,London (LHR),UTC+0,Morning,9.0,1.24,64
+41,EMP10041,Nicholas,Brown,Captain,A321,Hong Kong (HKG),UTC+8,Morning,8.6,1.04,65
+42,EMP10042,Michelle,Davis,First Officer,A321,Tokyo (NRT),UTC+9,Evening,7.8,1.04,60
+43,EMP10043,Lisa,Sato,Captain,A321,Hong Kong (HKG),UTC+8,Neutral,8.7,0.7,57
+44,EMP10044,Michelle,Mitchell,Captain,A320,London (LHR),UTC+0,Neutral,8.2,1.26,41
+45,EMP10045,Sarah,Ramirez,Captain,A350,Singapore (SIN),UTC+8,Neutral,7.8,1.2,66
+46,EMP10046,Mohammed,Scott,Captain,A350,Hong Kong (HKG),UTC+8,Evening,8.2,1.12,56
+47,EMP10047,Priya,Campbell,Captain,A320,Los Angeles (LAX),UTC-8,Morning,8.4,0.97,74
+48,EMP10048,Sandra,Davis,First Officer,A350,New York (JFK),UTC-5,Evening,8.0,0.82,53
+49,EMP10049,Patrick,Baker,First Officer,A321,Los Angeles (LAX),UTC-8,Evening,8.0,0.82,51
+50,EMP10050,Jennifer,Rivera,Captain,A320,Hong Kong (HKG),UTC+8,Neutral,6.9,1.05,60
+51,EMP10051,Mateus,Hassan,First Officer,B737,Hong Kong (HKG),UTC+8,Evening,8.3,0.76,77
+52,EMP10052,Douglas,Carter,Captain,A321,Los Angeles (LAX),UTC-8,Neutral,8.5,1.03,62
+53,EMP10053,Sandra,Lee,Captain,A350,Singapore (SIN),UTC+8,Morning,8.2,1.15,47
+54,EMP10054,Stephanie,Lewis,First Officer,A320,Hong Kong (HKG),UTC+8,Evening,8.1,1.13,60
+55,EMP10055,Kimberly,Haddad,First Officer,A321,Tokyo (NRT),UTC+9,Morning,9.2,0.97,35
+56,EMP10056,Henry,Baker,First Officer,A350,New York (JFK),UTC-5,Neutral,7.2,0.81,40
+57,EMP10057,Jonathan,Allen,Captain,A350,Tokyo (NRT),UTC+9,Evening,7.3,0.7,60
+58,EMP10058,Michelle,Perez,First Officer,A320,London (LHR),UTC+0,Evening,7.7,1.02,69
+59,EMP10059,Donna,Dubois,Captain,B737,Dubai (DXB),UTC+4,Morning,8.1,1.12,55
+60,EMP10060,Eric,Carter,Captain,A320,New York (JFK),UTC-5,Morning,7.0,0.81,42
+61,EMP10061,Eric,Fischer,Captain,B777,Delhi (DEL),UTC+5.5,Evening,8.1,1.16,75
+62,EMP10062,Jerry,Williams,Captain,A320,London (LHR),UTC+0,Neutral,8.7,1.01,49
+63,EMP10063,Tyler,Lopez,First Officer,A320,London (LHR),UTC+0,Morning,8.4,1.26,43
+64,EMP10064,Sarah,Jones,First Officer,A320,New York (JFK),UTC-5,Evening,7.1,1.14,52
+65,EMP10065,Priya,Wilson,First Officer,A350,Frankfurt (FRA),UTC+1,Evening,7.9,1.05,64
+66,EMP10066,Ryan,Kowalski,Captain,A350,Hong Kong (HKG),UTC+8,Neutral,7.8,1.17,64
+67,EMP10067,Aaron,Nguyen,Captain,A321,Frankfurt (FRA),UTC+1,Morning,8.0,1.02,72
+68,EMP10068,Lisa,Young,First Officer,A350,Sydney (SYD),UTC+10,Neutral,7.6,0.76,35
+69,EMP10069,Margaret,White,Captain,B737,Frankfurt (FRA),UTC+1,Neutral,8.6,0.86,64
+70,EMP10070,Nancy,Sharma,First Officer,A350,Sydney (SYD),UTC+10,Neutral,7.8,1.16,46
+71,EMP10071,Linda,Campbell,Captain,A321,Hong Kong (HKG),UTC+8,Neutral,8.0,1.09,59
+72,EMP10072,Deborah,Hill,First Officer,B737,Singapore (SIN),UTC+8,Evening,8.3,1.16,64
+73,EMP10073,Thomas,Lee,Captain,A350,London (LHR),UTC+0,Neutral,7.1,0.95,36
+74,EMP10074,Amanda,Muller,Captain,B777,London (LHR),UTC+0,Neutral,7.2,0.7,53
+75,EMP10075,Thomas,Haddad,First Officer,A350,Singapore (SIN),UTC+8,Neutral,7.2,0.96,61
+76,EMP10076,Justin,Smith,Captain,B777,Hong Kong (HKG),UTC+8,Morning,7.7,1.13,79
+77,EMP10077,Elena,Adams,First Officer,A321,Tokyo (NRT),UTC+9,Morning,8.7,0.93,77
+78,EMP10078,Arjun,Kumar,Captain,A350,Frankfurt (FRA),UTC+1,Morning,7.5,0.93,65
+79,EMP10079,Sandra,Moore,Captain,A320,Frankfurt (FRA),UTC+1,Neutral,6.8,0.88,39
+80,EMP10080,Fatima,Fischer,First Officer,A350,Sydney (SYD),UTC+10,Neutral,7.9,1.03,47
+81,EMP10081,Stephanie,Flores,Captain,A321,Delhi (DEL),UTC+5.5,Neutral,8.1,1.31,58
+82,EMP10082,Dennis,Bernard,First Officer,A320,Delhi (DEL),UTC+5.5,Neutral,7.6,0.99,64
+83,EMP10083,Sandra,Campbell,Captain,A320,Singapore (SIN),UTC+8,Morning,7.9,0.9,66
+84,EMP10084,Jack,Thompson,First Officer,A350,New York (JFK),UTC-5,Morning,7.6,1.03,42
+85,EMP10085,Hiroshi,Rivera,First Officer,A321,Los Angeles (LAX),UTC-8,Evening,6.8,0.83,56
+86,EMP10086,Aaron,Silva,Captain,A350,Los Angeles (LAX),UTC-8,Neutral,7.6,1.04,79
+87,EMP10087,Paul,Popescu,Captain,A321,Los Angeles (LAX),UTC-8,Neutral,7.8,0.75,44
+88,EMP10088,Sarah,Sato,First Officer,A321,Tokyo (NRT),UTC+9,Neutral,7.1,1.08,53
+89,EMP10089,Kimberly,Miller,First Officer,A350,Delhi (DEL),UTC+5.5,Evening,8.4,1.07,39
+90,EMP10090,Karim,Brown,Captain,A321,Sydney (SYD),UTC+10,Neutral,8.2,0.88,44
+91,EMP10091,Gregory,Hassan,Captain,A321,Dubai (DXB),UTC+4,Neutral,7.8,1.0,63
+92,EMP10092,Jacob,Khan,Captain,B777,Frankfurt (FRA),UTC+1,Evening,8.7,0.84,31
+93,EMP10093,Linda,Sanchez,First Officer,A321,Dubai (DXB),UTC+4,Neutral,7.8,0.96,57
+94,EMP10094,Omar,Wilson,Captain,B777,Singapore (SIN),UTC+8,Neutral,8.3,1.31,62
+95,EMP10095,Priya,Walker,Captain,A320,Hong Kong (HKG),UTC+8,Evening,7.4,0.74,61
+96,EMP10096,Peter,Bernard,First Officer,B737,London (LHR),UTC+0,Neutral,7.4,1.09,63
+97,EMP10097,Stephen,King,First Officer,A321,Singapore (SIN),UTC+8,Neutral,7.2,1.0,49
+98,EMP10098,Olga,Perez,First Officer,B737,Dubai (DXB),UTC+4,Neutral,8.2,0.92,30
+99,EMP10099,Timothy,Baker,First Officer,A320,Dubai (DXB),UTC+4,Morning,8.4,1.05,88
+100,EMP10100,William,Adams,First Officer,A350,Los Angeles (LAX),UTC-8,Neutral,8.3,1.19,53
+101,EMP10101,Jacob,Ivanov,First Officer,B737,Los Angeles (LAX),UTC-8,Morning,8.4,1.22,54
+102,EMP10102,Jonathan,Kowalski,First Officer,A321,Frankfurt (FRA),UTC+1,Morning,6.9,0.88,50
+103,EMP10103,Robert,Jackson,Captain,A321,Frankfurt (FRA),UTC+1,Neutral,8.6,0.96,47
+104,EMP10104,Sandra,Lewis,Captain,A321,Sydney (SYD),UTC+10,Morning,8.3,0.97,67
+105,EMP10105,Joshua,Smith,Captain,A350,Delhi (DEL),UTC+5.5,Morning,7.9,0.82,41
+106,EMP10106,Patrick,Young,First Officer,A350,Delhi (DEL),UTC+5.5,Morning,8.6,0.7,42
+107,EMP10107,Omar,Khan,Captain,B777,Singapore (SIN),UTC+8,Evening,7.4,0.83,65
+108,EMP10108,George,Lopez,Captain,B737,London (LHR),UTC+0,Evening,8.1,1.12,69
+109,EMP10109,Joshua,Rodriguez,First Officer,A350,Dubai (DXB),UTC+4,Neutral,7.5,0.72,61
+110,EMP10110,Nicholas,Muller,First Officer,A350,London (LHR),UTC+0,Evening,7.6,1.0,56
+111,EMP10111,Susan,King,First Officer,A321,Tokyo (NRT),UTC+9,Neutral,7.5,1.13,67
+112,EMP10112,Paul,Hall,Captain,A350,Frankfurt (FRA),UTC+1,Neutral,8.3,1.05,38
+113,EMP10113,Gregory,Johnson,Captain,B777,Los Angeles (LAX),UTC-8,Neutral,8.9,1.2,63
+114,EMP10114,Kenneth,Baker,Captain,B777,London (LHR),UTC+0,Neutral,8.2,1.01,44
+115,EMP10115,Jacob,Smith,Captain,A350,Tokyo (NRT),UTC+9,Neutral,8.0,1.04,60
+116,EMP10116,Jack,Flores,First Officer,A320,Dubai (DXB),UTC+4,Morning,7.4,1.08,64
+117,EMP10117,Ivan,Rossi,Captain,A320,Hong Kong (HKG),UTC+8,Morning,8.5,1.01,49
+118,EMP10118,George,Green,Captain,B777,Sydney (SYD),UTC+10,Neutral,8.5,0.98,45
+119,EMP10119,Joshua,Young,First Officer,A321,New York (JFK),UTC-5,Evening,8.1,0.92,52
+120,EMP10120,Priya,Costa,Captain,A320,Sydney (SYD),UTC+10,Morning,7.4,0.93,77
