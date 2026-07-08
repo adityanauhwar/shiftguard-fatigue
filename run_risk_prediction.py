@@ -19,6 +19,10 @@ Examples
     # Score every upcoming open shift as if crew 101 took it - a
     # pre-assignment forward risk check on top of scheduling_engine
     python run_risk_prediction.py --crew-id 101 --shifts data/open_shifts.csv
+
+    # Add a plain-English briefing via the Groq API (requires GROQ_API_KEY
+    # and `pip install groq` - see risk_prediction_engine/explain.py)
+    python run_risk_prediction.py --crew-id 101 --explain
 """
 
 from __future__ import annotations
@@ -60,6 +64,8 @@ def main() -> None:
     parser.add_argument("--category", default="Scheduled Check-in", help="Report context: Pre-Flight / Post-Flight / Layover / Scheduled Check-in")
     parser.add_argument("--shifts", help="Path to an open-shifts CSV; scores each shift for --crew-id as a pre-assignment check")
     parser.add_argument("--out", help="Optional path to write JSON output to")
+    parser.add_argument("--explain", action="store_true", help="Add a plain-English briefing per prediction via the Groq API (requires GROQ_API_KEY)")
+    parser.add_argument("--explain-model", default=None, help="Override the Groq model used for --explain (default: llama-3.3-70b-versatile)")
     args = parser.parse_args()
 
     data = load_merged_data(args.data_dir)
@@ -93,6 +99,17 @@ def main() -> None:
     else:
         parser.error("Specify --crew-id <id> (optionally with --shifts) or --all")
         return
+
+    if args.explain:
+        from risk_prediction_engine.explain import DEFAULT_MODEL, explain_prediction
+
+        explain_model = args.explain_model or DEFAULT_MODEL
+        items = result if isinstance(result, list) else [result]
+        try:
+            for item in items:
+                item["explanation"] = explain_prediction(item, model=explain_model)
+        except (ImportError, RuntimeError) as e:
+            print(f"[--explain skipped] {e}\n")
 
     output = json.dumps(result, indent=2, default=str)
     print(output)

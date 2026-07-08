@@ -364,5 +364,34 @@ The last usage — scoring every shift in an `open_shifts.csv` batch for
 a given crew member — is meant as a pre-assignment check layered on top
 of (not instead of) `scheduling_engine`'s hard eligibility rules: a
 shift that legally clears eligibility can still be a bad idea if the
-classifier flags High/Severe risk for that person at that shift's
-report time.
+classifier flags High-Risk for that person at that shift's report time.
+
+### Optional: plain-English briefings via the Groq API (`--explain`)
+
+`risk_prediction_engine/explain.py` adds one optional integration point
+for an LLM — **not** for the prediction itself (that stays with the
+trained Random Forest, which is the right tool for a task with 6,085
+labeled historical examples), but for translating its already-decided
+output into a short briefing a scheduler can read in a few seconds
+instead of parsing JSON.
+
+```bash
+pip install groq
+export GROQ_API_KEY=your-key-here        # from https://console.groq.com
+
+python run_risk_prediction.py --crew-id 101 --explain
+```
+
+This adds an `"explanation"` field to each prediction, e.g.:
+
+> *"Crew 101 is Low-Risk for this shift, driven mainly by strong recent
+> sleep (nearly 8 hours/night) and a healthy fatigue score — their
+> slightly elevated fatigue sensitivity isn't enough to outweigh that."*
+
+If `groq` isn't installed or `GROQ_API_KEY` isn't set, `--explain` fails
+gracefully with a one-line message and the JSON output still prints
+normally — it's additive, never required. `--explain-model` can override
+the default model (`llama-3.3-70b-versatile`); check
+[console.groq.com/docs/models](https://console.groq.com/docs/models) for
+what's currently hosted, since Groq rotates its available models more
+often than some other providers.
